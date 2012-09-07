@@ -63,7 +63,7 @@ set noimdisable
 set iminsert=0
 set imsearch=0
 set nostartofline
-set scrolljump=10
+"set scrolljump=10
 set foldenable
 set backspace=indent,eol,start
 set mouse=a
@@ -160,7 +160,7 @@ endif
 let NERDTreeShowHidden=0
 "let g:NERDTreeChristmasTree=1
 let g:NERDTreeCaseSensitiveSort=1
-let g:NERDTreeQuitOnOpen=1
+"let g:NERDTreeQuitOnOpen=1
 let g:NERDTreeWinPos='left'
 let g:NERDTreeWinSize=40
 
@@ -215,6 +215,7 @@ map to :BookmarkToRoot
 map tof ::OpenBookmark
 map cbk :ClearBookmarks
 map cbkall :ClearAllBookmarks
+map tl :Tlist
 
 " Load Template
 autocmd BufNewFile *.php  0r $VIMFILES/template/template.php
