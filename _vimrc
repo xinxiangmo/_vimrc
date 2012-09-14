@@ -115,6 +115,7 @@ language message zh_CN.gbk
 " fileformat
 set fileformats=unix,mac,dos
 set fileformat=unix
+map <leader>vimrc :e ++ff=dos<CR>
 
 " font and theme
 if has('gui_running')
