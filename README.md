@@ -1,7 +1,8 @@
 My Vim Programming Configure
 ============================
 
-Thank you for choosing My Vim Configure - it can help you quickly develop
+Thank you for choosing My Vim Configure
+
 
 On mac/linux
 ------------
@@ -10,6 +11,7 @@ On mac/linux
         * git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
         * ln -s ~/.vim/vimrc ~/.vimrc
         * run this command "BundleInstall" with vim
+
 
 What's NEXT
 -----------
